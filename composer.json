@@ -1,0 +1,38 @@
+{
+    "name": "brarear/flarum-ext-thai",
+    "type": "flarum-extension",
+    "description": "Thai language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Brarear",
+        "email": "brarear@gmail.com"
+      }
+    ],
+    "support": {
+      "issues": "https://github.com/brarear/flarum-ext-thai/issues",
+      "source": "https://github.com/brarear/flarum-ext-thai"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Thai",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "th",
+            "title": "Thai"
+        }
+    }
+}
