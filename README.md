@@ -13,6 +13,10 @@ Flarum relies on [Composer](https://getcomposer.org/) to manage dependencies and
 1. Run this command on your folder installing Flarum
 
        composer require brarear/flarum-ext-thai
+           
+   Don't forget to clear cache of your Flarum
+       
+       php flarum cache:clear
 
 2. Go to the Flarum admin page, click **Extensions**, then check **Thai** for enable this extension.
 
