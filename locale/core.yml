@@ -284,11 +284,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: ล่าสุด
-      newest_button: ใหม่กว่า
-      oldest_button: เก่ากว่า
+      latest_button: อัพเดตล่าสุด
+      newest_button: ใหม่ล่าสุด
+      oldest_button: เก่าที่สุด
       relevance_button: สัมพันธ์กัน
-      top_button: บนสุด
+      top_button: อยู่บนสุด
 
     # These translations are used in the Log In modal dialog.
     log_in:

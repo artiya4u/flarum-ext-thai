@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: สี
       delete_tag_button: ลบแท็ก
-      delete_tag_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบแท็กนี้ ? กระทู้ของแท็กนี้จะไม่ถูกลบ"
+      delete_tag_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบแท็กนี้ ? กระทู้ภายในแท็กนี้จะไม่ถูกลบตามไปด้วย"
       description_label: คำอธิบาย
       hide_label: ซ่อนจากรายการกระทู้
       name_label: => flarum-tags.ref.name
@@ -46,11 +46,11 @@ flarum-tags:
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "ใช้แท็กเพื่อจัดหมวดหมู่ของกระทู้ แท็กหลักเหมือนประเภทฟอรัมสามารถจัดเรียงได้ในลำดับชั้นสองระดับ แท็กรองไม่มีลำดับชั้นหรือลำดับและมีประโยชน์สำหรับการจัดหมวดหมู่ย่อย"
+      about_tags_text: "ใช้แท็กเพื่อจัดหมวดหมู่ของกระทู้ แท็กหลักเหมือนประเภทของกระทู้สามารถจัดเรียงได้ในลำดับชั้นสองระดับ แท็กรองไม่มีลำดับชั้นหรือลำดับและมีประโยชน์สำหรับการจัดหมวดหมู่ย่อย"
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: แท็กหลัก
       secondary_heading: แท็กรอง
-      settings_button: ตั้งค่า
+      settings_button: ตั้งค่าแท็ก
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -73,22 +73,22 @@ flarum-tags:
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: เพิ่มเติม...
+      more_link: แสดงแท็กเพิ่มเติม
       tags_link: => flarum-tags.ref.tags
-      untagged_link: ปลดแท็ก
+      untagged_link: ไม่มีแท็ก
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} ติดแท็ก {tagsAdded}."
-      added_and_removed_tags_text: "{username} ติดแท็ก {tagsAdded} และลบแท็ก {tagsRemoved}."
-      removed_tags_text: "{username} ลบแท็ก {tagsRemoved}."
-      tags_text: "{tags} แท็ก|{tags} แท็ก"
+      added_tags_text: "{username} ติดแท็ก {tagsAdded}"
+      added_and_removed_tags_text: "{username} ติดแท็ก {tagsAdded} และลบแท็ก {tagsRemoved}"
+      removed_tags_text: "{username} ลบแท็ก {tagsRemoved}"
+      tags_text: "{tags}|{tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: ลบแล้ว
+    deleted_tag_text: ถูกลบแล้ว
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!

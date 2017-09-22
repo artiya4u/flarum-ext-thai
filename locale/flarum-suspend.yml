@@ -16,18 +16,18 @@ flarum-suspend:
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: ถูกระงับไปเรื่อย ๆ
+      indefinitely_label: ถูกระงับไปตลอด
       limited_time_label: ถูกระงับไว้ในระยะเวลาที่จำกัด
       limited_time_days_text: " วัน"
-      not_suspended_label: ไม่ระงับ
+      not_suspended_label: ไม่ถูกระงับ
       status_heading: สถานะการระงับ
       submit_button: => core.ref.save_changes
-      title: "ระงับผู้ใช้ {username}"
+      title: "การระงับผู้ใช้ {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: ถูกระงับ
+      suspended_tooltip: ผู้ใช้ถูกระงับ
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: ถูกระงับ
+      suspend_button: การระงับ
