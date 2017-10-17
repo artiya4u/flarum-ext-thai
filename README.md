@@ -12,7 +12,7 @@ Flarum relies on [Composer](https://getcomposer.org/) to manage dependencies and
 
 1. Run this command on your folder installing Flarum
 
-       composer require brarear/flarum-ext-thai
+       composer require artiya4u/flarum-ext-thai
            
    Don't forget to clear cache of your Flarum
        

@@ -225,7 +225,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "คุณแน่ใจหรือไม่ว่าต้องการลบกระทู้นี้ ?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบกระทู้
+      log_in_to_reply_button: เข้าสู่ระบบเพื่อตอบ
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
