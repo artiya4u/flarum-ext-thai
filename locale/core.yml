@@ -207,7 +207,7 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ คุณต้องการยกเลิกหรือไม่ ?"
-      post_link: "โพสท์ #{number} ใน {discussion}"
+      post_link: "โพสท์ #{number} จาก {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
