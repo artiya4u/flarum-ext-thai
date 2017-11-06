@@ -288,7 +288,7 @@ core:
       newest_button: ใหม่ล่าสุด
       oldest_button: เก่าที่สุด
       relevance_button: สัมพันธ์กัน
-      top_button: อยู่บนสุด
+      top_button: "comment มากที่สุด"
 
     # These translations are used in the Log In modal dialog.
     log_in:
